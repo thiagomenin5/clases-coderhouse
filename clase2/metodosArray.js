@@ -3,7 +3,7 @@ const numeros =[3,5,7,9,11];
 const numerosDuplicados = numeros.map((value)=>{
     return value + value;
 })
-
+console.log(numerosDuplicados);
 //push:servira para agregar un elemento al final de un array
 const numeros1 = [3,5,7,9,11];
 numeros1.push(13);
